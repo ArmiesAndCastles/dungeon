@@ -4,7 +4,7 @@ A straightforward dungeon generator, written in C.
 
 Requires SDL to compile.
 
-# COMPILATION EXAMPLE:
+## C O M P I L A T I O N   E X A M P L E:
 
 gcc.exe code\view.c code\main.c -Ic:\code -Ic:\SDL\include -Lc:\SDL\lib -lmingw32 -lSDL2main -lSDL2 -o
 dungeon.exe
