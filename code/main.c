@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
+
 #include <view.h>
 
-/* #include <view.c> */
 #include <area.c>
 #include <cave.c>
 #include <read.c>
