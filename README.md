@@ -2,6 +2,8 @@
 
 A straightforward dungeon generator, written in C.
 
+![example](example.gif)
+
 Requires SDL to compile.
 
 #### COMPILATION EXAMPLE
