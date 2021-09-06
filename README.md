@@ -1,5 +1,5 @@
 # dungeon
-a straightforward dungeon generator in c
+A straightforward dungeon generator, written in C.
 
 Requires SDL to compile.
 
