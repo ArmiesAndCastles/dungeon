@@ -24,8 +24,11 @@ int main(int argc, char *argv[]){
    srand(time(0));
 
    while (1){
+      
       clearMap(&map);
+      
       mapAddRooms(&map);
+      
    }
 
    destroyView();
