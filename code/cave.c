@@ -112,7 +112,9 @@ void mapFillArea(Map *map, Area area, char tile){
 
 void clearMap(Map *map){
    mapFillArea(map, map->full, ' ');
+   
    mapFillArea(map, map->view, '+');
+   
    mapFillArea(map, map->cave, ' ');
 }
 
@@ -298,9 +300,9 @@ void mapAddRooms(Map *map){
 
    while (!mapIsFull(map)){
 
-      do {
+      do
          place = mapFindRandom(map, '#');
-      } while (mapCornerAt(map, place) || mapInternalAt(map, place));
+      while (mapCornerAt(map, place) || mapInternalAt(map, place));
 
       mapAddDoor(map, place);
 
